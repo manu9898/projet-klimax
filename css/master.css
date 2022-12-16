@@ -1,0 +1,203 @@
+/*général*/
+
+img{
+    width: 100%;
+}
+
+/*Header*/
+
+/*body*/
+body{
+    background-color: black;
+}
+/*fin de body*/
+
+/*nav*/
+#headerPage{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.container{
+    width: 1320px;
+    /*background-color: orange;*/
+}
+
+#containerHeader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 50px
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*fin de nav*/
+
+/*fin de header*/
+
+/*main*/
+#mainSection{
+    display: flex;
+    justify-content: center;
+}
+
+#mainSection2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgTopMain{
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainContainer{
+    padding-top: 40px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+
+.article1{
+    position: relative;
+}
+
+.article2{
+    position: relative;
+}
+
+.gangs{
+    position: absolute;
+    top: 355px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.solde{
+    position: absolute;
+    top: -5px;
+    right: -30px;
+    background-color: black;
+    color: orange;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btnVente{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+
+.divVente{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barre{
+    text-decoration: line-through;
+    font-size: 30px;
+}
+.finalPrice{
+    font-size: 30px;
+    color: orange;
+}
+
+
+/*fin de main*/
+
+/*footer*/
+
+footer{
+    background-color: #464748;
+}
+.divImgFooter{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.imgFooter{
+    width: 80px;
+}
+.border-b{
+    border-bottom: 1px solid;
+    color: lightgray;
+    width: 1320px;
+    padding-top: 30px;
+}
+
+.divImgFooter2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+@media screen  and (min-width: 442px) and (max-width: 937px) {
+    .divImgFooter {
+        width: 420px;
+        gap: 100px;
+    }
+}
+@media screen and (max-width: 416px){
+    .divImgFooter2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 409px){
+    #headerPage{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.lawTxt{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px
+}
+
+.navFooter{
+    position: relative;
+}
+
+.menuFooter{
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px ;
+}
+
+.aFooter{
+    color: black;
+    text-decoration: none;
+}
+
+
+/*fin de footer*/
